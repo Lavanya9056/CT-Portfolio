@@ -1,0 +1,146 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #212529;
+  }
+  
+  .hero {
+    position: relative;
+    height: 100vh;
+    background: url('https://www.transparenttextures.com/patterns/cubes.png'), linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  .tagline {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav {
+    background: #343a40;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  main {
+    padding: 3rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+  }
+  
+  .resume-frame {
+    border: 2px solid #343a40;
+    border-radius: 10px;
+  }
+  
+  .skills-list {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: inherit;
+  }
+  
+  form button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  footer {
+    background: #212529;
+    color: #adb5bd;
+    text-align: center;
+    padding: 1rem;
+  }
+  
